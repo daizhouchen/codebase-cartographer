@@ -2,7 +2,7 @@
 
 > Navigate any codebase like Google Maps — zoom, search, and explore dependencies interactively.
 
-A [Claude Code](https://claude.ai/code) skill that scans a code repository and generates an interactive D3.js architecture map showing module dependencies, circular dependency warnings, hub modules, and isolated files.
+An [OpenClaw](https://openclawskill.ai) skill that scans a code repository and generates an interactive D3.js architecture map showing module dependencies, circular dependency warnings, hub modules, and isolated files.
 
 ## Features
 
@@ -19,7 +19,7 @@ A [Claude Code](https://claude.ai/code) skill that scans a code repository and g
 ## Installation
 
 ```bash
-claude skill add daizhouchen/codebase-cartographer
+npx @anthropic-ai/claw@latest skill add daizhouchen/codebase-cartographer
 ```
 
 ## How It Works
