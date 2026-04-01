@@ -2,7 +2,7 @@
 
 > Turn any repository into a zoomable, searchable architecture map -- navigate code like Google Maps.
 
-Codebase Cartographer is an [OpenClaw](https://openclawskill.ai) skill for Claude Code that scans a code repository, parses imports across multiple languages, detects circular dependencies with Tarjan's strongly connected components algorithm, and renders an interactive D3.js force-directed graph. The result is a single HTML file you can open in any browser to explore module relationships, identify hub modules, spot dead code, and understand unfamiliar codebases at a glance.
+Codebase Cartographer is an [OpenClaw](https://openclawskill.ai) skill for OpenClaw that scans a code repository, parses imports across multiple languages, detects circular dependencies with Tarjan's strongly connected components algorithm, and renders an interactive D3.js force-directed graph. The result is a single HTML file you can open in any browser to explore module relationships, identify hub modules, spot dead code, and understand unfamiliar codebases at a glance.
 
 ## Features
 
@@ -23,7 +23,7 @@ npx @anthropic-ai/claw@latest skill add daizhouchen/codebase-cartographer
 
 ## Quick Start
 
-Once the skill is installed, ask Claude Code to map your project in natural language:
+Once the skill is installed, ask OpenClaw to map your project in natural language:
 
 ```
 "Help me understand this codebase"
@@ -31,7 +31,7 @@ Once the skill is installed, ask Claude Code to map your project in natural lang
 "Generate a dependency map"
 ```
 
-Claude Code runs the two-step pipeline automatically and opens the resulting HTML map. You can also trigger it in Chinese (see Trigger Phrases below).
+OpenClaw runs the two-step pipeline automatically and opens the resulting HTML map. You can also trigger it in Chinese (see Trigger Phrases below).
 
 ## How It Works
 
